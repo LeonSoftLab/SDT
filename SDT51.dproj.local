@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.17 11:36:11.941.pas,D:\Development\BDS2010\Unit1.pas=D:\Development\BDS2010\SDT_4_8\MainFormUnit.pas</Transaction>
+    <Transaction>2010.08.17 11:36:11.941.dfm,D:\Development\BDS2010\Unit1.dfm=D:\Development\BDS2010\SDT_4_8\MainFormUnit.dfm</Transaction>
+    <Transaction>2010.08.17 11:36:25.689.dproj,D:\Development\BDS2010\Project1.dproj=D:\Development\BDS2010\SDT_4_8\SDT48.dproj</Transaction>
+    <Transaction>2010.08.17 11:37:17.242.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\ConstUnit.pas</Transaction>
+    <Transaction>2010.08.17 11:38:46.760.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\FunctionsUnit.pas</Transaction>
+    <Transaction>2010.08.17 11:55:35.033.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\cImportObjectsUnit.pas</Transaction>
+    <Transaction>2010.08.17 11:57:18.169.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\cBaseObjectUnit.pas</Transaction>
+    <Transaction>2010.08.17 12:14:54.542.pas,D:\Development\BDS2010\SDT_4_8\units\cBaseObjectUnit.pas=D:\Development\BDS2010\SDT_4_8\units\cBaseObject.pas</Transaction>
+    <Transaction>2010.08.17 12:17:34.429.pas,D:\Development\BDS2010\SDT_4_8\units\cBaseObject.pas=D:\Development\BDS2010\SDT_4_8\units\TBaseObject.pas</Transaction>
+    <Transaction>2010.08.17 12:17:51.579.pas,D:\Development\BDS2010\SDT_4_8\units\cImportObjectsUnit.pas=D:\Development\BDS2010\SDT_4_8\units\TImportObjectsUnit.pas</Transaction>
+    <Transaction>2010.08.17 12:27:26.809.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\TExportObjectsUnit.pas</Transaction>
+    <Transaction>2010.08.17 12:36:42.690.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\TConfirmationObjectsUnit.pas</Transaction>
+    <Transaction>2010.08.17 13:07:46.536.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\TSettingsObjectUnit.pas</Transaction>
+    <Transaction>2010.08.19 15:21:44.376.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\TSheduleUnit.pas</Transaction>
+    <Transaction>2010.08.19 17:42:52.337.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\units\TSheduleTimerUnit.pas</Transaction>
+    <Transaction>2010.08.20 16:50:33.520.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\SettingsSheduleFormUnit.pas</Transaction>
+    <Transaction>2010.08.20 16:50:33.520.dfm,D:\Development\BDS2010\SDT_4_8\Unit1.dfm=D:\Development\BDS2010\SDT_4_8\SettingsSheduleFormUnit.dfm</Transaction>
+    <Transaction>2010.08.20 17:12:46.351.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\SettingsSheduleDetailsFormUnit.pas</Transaction>
+    <Transaction>2010.08.20 17:12:46.351.dfm,D:\Development\BDS2010\SDT_4_8\Unit1.dfm=D:\Development\BDS2010\SDT_4_8\SettingsSheduleDetailsFormUnit.dfm</Transaction>
+    <Transaction>2010.08.20 17:48:17.653.pas,D:\Development\BDS2010\SDT_4_8\units\TSheduleUnit.pas=</Transaction>
+    <Transaction>2010.08.21 12:48:29.589.pas,D:\Development\BDS2010\SDT_4_8\units\TSheduleTimerUnit.pas=</Transaction>
+    <Transaction>2010.08.30 15:13:07.271.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\ExportTypeFormUnits.pas</Transaction>
+    <Transaction>2010.08.30 15:13:07.271.dfm,D:\Development\BDS2010\SDT_4_8\Unit1.dfm=D:\Development\BDS2010\SDT_4_8\ExportTypeFormUnits.dfm</Transaction>
+    <Transaction>2010.08.30 15:27:15.070.pas,D:\Development\BDS2010\SDT_4_8\Unit1.pas=D:\Development\BDS2010\SDT_4_8\LogViewFormUnit.pas</Transaction>
+    <Transaction>2010.08.30 15:27:15.070.dfm,D:\Development\BDS2010\SDT_4_8\Unit1.dfm=D:\Development\BDS2010\SDT_4_8\LogViewFormUnit.dfm</Transaction>
+    <Transaction>2010/11/01 13:49:52.900.dproj,C:\Projects\Projects\SDT_4_8\SDT48.dproj=C:\Projects\Projects\SDT_4_8\SDT49.dproj</Transaction>
+    <Transaction>2010/11/01 15:33:51.225.pas,C:\Projects\Projects\SDT_4_9\Unit1.pas=C:\Projects\Projects\SDT_4_9\ThAutoUpdatePrice.pas</Transaction>
+    <Transaction>2010/11/02 09:22:18.165.dproj,C:\Projects\Projects\SDT_4_9\SDT49.dproj=C:\Projects\Projects\SDT_4_9\SDT50.dproj</Transaction>
+    <Transaction>2010/11/03 09:41:18.969.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\Unit_ExpAllShed.pas</Transaction>
+    <Transaction>2010/11/03 09:41:18.969.dfm,C:\Projects\Projects\SDT_5_0\Unit1.dfm=C:\Projects\Projects\SDT_5_0\Unit_ExpAllShed.dfm</Transaction>
+    <Transaction>2010/11/03 10:05:16.537.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\TExpDataByRoute.pas</Transaction>
+    <Transaction>2010/11/04 12:28:58.681.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\Unit_RoutesInfo.pas</Transaction>
+    <Transaction>2010/11/04 12:28:58.681.dfm,C:\Projects\Projects\SDT_5_0\Unit1.dfm=C:\Projects\Projects\SDT_5_0\Unit_RoutesInfo.dfm</Transaction>
+    <Transaction>2010/11/11 11:11:02.291.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\ThReferences.pas</Transaction>
+    <Transaction>2010/11/15 17:39:57.928.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\ThDZ.pas</Transaction>
+    <Transaction>2010/11/16 11:48:21.955.pas,C:\Projects\Projects\SDT_5_0\Unit1.pas=C:\Projects\Projects\SDT_5_0\ThReturns.pas</Transaction>
+    <Transaction>2010/11/29 09:51:25.504.dproj,C:\Projects\Projects\SDT_5_1\SDT50.dproj=C:\Projects\Projects\SDT_5_1\SDT51.dproj</Transaction>
+    <Transaction>2010/12/03 17:34:49.217.pas,C:\Projects\Projects\SDT_5_1\Unit1.pas=C:\Projects\Projects\SDT_5_1\Unit_Mustok.pas</Transaction>
+    <Transaction>2010/12/03 17:34:49.217.dfm,C:\Projects\Projects\SDT_5_1\Unit1.dfm=C:\Projects\Projects\SDT_5_1\Unit_Mustok.dfm</Transaction>
+    <Transaction>2010/12/06 10:48:46.971.pas,C:\Projects\Projects\SDT_5_1\Unit1.pas=C:\Projects\Projects\SDT_5_1\Unit_Add_Goods.pas</Transaction>
+    <Transaction>2010/12/06 10:48:46.971.dfm,C:\Projects\Projects\SDT_5_1\Unit1.dfm=C:\Projects\Projects\SDT_5_1\Unit_Add_Goods.dfm</Transaction>
+    <Transaction>2011.01.06 09:17:02.057.pas,C:\Projects\Projects\SDT_5_1\Unit1.pas=C:\Projects\Projects\SDT_5_1\TExportDocumentsUnit.pas</Transaction>
+    <Transaction>2011.05.31 12:44:20.300.pas,C:\Projects\Projects\SDT_5_1\Unit1.pas=C:\Projects\Projects\SDT_5_1\ThRestartService.pas</Transaction>
+    <Transaction>2011.05.31 12:45:46.710.pas,C:\Projects\Projects\SDT_5_1\ThRestartService.pas=C:\Projects\Projects\SDT_5_1\TRestartServiceUnit.pas</Transaction>
+    <Transaction>2011.09.09 00:20:40.000.pas,C:\Projects\Projects\SDT_5_1\units\Unit_OneHinst.pas=</Transaction>
+    <Transaction>2018.09.12 09:45:08.106.pas,C:\Project\SDT_5_1\Unit_Mustok.pas=</Transaction>
+    <Transaction>2018.09.12 09:45:08.106.dfm,C:\Project\SDT_5_1\Unit_Mustok.dfm=</Transaction>
+    <Transaction>2018.09.12 09:46:36.157.pas,C:\Project\SDT_5_1\Unit_ExpAllShed.pas=</Transaction>
+    <Transaction>2018.09.12 09:46:36.157.dfm,C:\Project\SDT_5_1\Unit_ExpAllShed.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

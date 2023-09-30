@@ -1,0 +1,172 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E8D668BA-B76E-4326-BAE2-33AE6C32AEB5}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<MainSource>SDT51.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UsePackage>vcl;rtl;vclx;vclimg;vclactnband;dbrtl;vcldb;vcldbx;bdertl;vcltouch;xmlrtl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DbxClientDriver;DataSnapServer;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;Jcl;JclVcl;JvCoreD14R;JvSystemD14R;JvStdCtrlsD14R;JvAppFrmD14R;JvBandsD14R;JvDBD14R;JvDlgsD14R;JvBDED14R;JvCmpD14R;JvCryptD14R;JvCtrlsD14R;JvCustomD14R;JvDockingD14R;JvDotNetCtrlsD14R;JvEDID14R;JvGlobusD14R;JvHMID14R;JvInterpreterD14R;JvJansD14R;JvManagedThreadsD14R;JvMMD14R;JvNetD14R;JvPageCompsD14R;JvPluginD14R;JvPrintPreviewD14R;JvRuntimeDesignD14R;JvTimeFrameworkD14R;JvValidatorsD14R;JvWizardD14R;JvXPCtrlsD14R;tmsd2010;tmsexd2010;tmswizd2010;tmsxlsd2010</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>SDT51.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_E>false</DCC_E>
+			<DCC_N>false</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_K>false</DCC_K>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="SDT51.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="MainFormUnit.pas">
+				<Form>fMain</Form>
+			</DCCReference>
+			<DCCReference Include="units\ConstUnit.pas"/>
+			<DCCReference Include="units\FunctionsUnit.pas"/>
+			<DCCReference Include="units\TImportObjectsUnit.pas"/>
+			<DCCReference Include="units\TBaseObject.pas"/>
+			<DCCReference Include="DataModuleUnit.pas">
+				<Form>mData</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="units\TExportObjectsUnit.pas"/>
+			<DCCReference Include="units\TConfirmationObjectsUnit.pas"/>
+			<DCCReference Include="units\TSettingsObjectUnit.pas"/>
+			<DCCReference Include="SettingsConnectFormUnit.pas">
+				<Form>fSettingsConnect</Form>
+			</DCCReference>
+			<DCCReference Include="SettingsFolderFormUnit.pas">
+				<Form>fSettingsFolders</Form>
+			</DCCReference>
+			<DCCReference Include="ThreadExportUnit.pas"/>
+			<DCCReference Include="ThreadImportUnit.pas"/>
+			<DCCReference Include="SettingsSheduleFormUnit.pas">
+				<Form>fSheduleSett</Form>
+			</DCCReference>
+			<DCCReference Include="SettingsSheduleDetailsFormUnit.pas">
+				<Form>fSheduleTaskDetail</Form>
+			</DCCReference>
+			<DCCReference Include="units\TSheduleTimerUnit.pas"/>
+			<DCCReference Include="ExportTypeFormUnits.pas">
+				<Form>fExportType</Form>
+			</DCCReference>
+			<DCCReference Include="LogViewFormUnit.pas">
+				<Form>fViewLog</Form>
+			</DCCReference>
+			<DCCReference Include="units\TTaskTimer.pas"/>
+			<DCCReference Include="Unit_PriceTable.pas">
+				<Form>Form_PriceTable</Form>
+			</DCCReference>
+			<DCCReference Include="Unit_AutoUpdatePrice.pas">
+				<Form>Form_AutoUpdatePrice</Form>
+			</DCCReference>
+			<DCCReference Include="Unit_PriceList.pas">
+				<Form>Form_PriceList</Form>
+			</DCCReference>
+			<DCCReference Include="Unit_RowPriceInfo.pas">
+				<Form>Form_RowPriceInfo</Form>
+			</DCCReference>
+			<DCCReference Include="UnitEditPriceType.pas">
+				<Form>Form_EditPriceType</Form>
+			</DCCReference>
+			<DCCReference Include="ThAutoUpdatePrice.pas"/>
+			<DCCReference Include="TExpDataByRoute.pas"/>
+			<DCCReference Include="Unit_RoutesInfo.pas">
+				<Form>Form_RoutesInfo</Form>
+			</DCCReference>
+			<DCCReference Include="ThReferences.pas"/>
+			<DCCReference Include="ThDZ.pas"/>
+			<DCCReference Include="ThReturns.pas"/>
+			<DCCReference Include="Unit_Add_Goods.pas">
+				<Form>Form_Add_Goods</Form>
+			</DCCReference>
+			<DCCReference Include="TExportDocumentsUnit.pas"/>
+			<DCCReference Include="TRestartServiceUnit.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">SDT51.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">5</VersionInfo>
+						<VersionInfo Name="MinorVer">3</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">100</VersionInfo>
+						<VersionInfo Name="Debug">True</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">AlefVinal</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">STDT_30052014</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">5.3.0.100</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">SDT</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">5.3.0.99</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">STDT_30052014</VersionInfoKeys>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>
